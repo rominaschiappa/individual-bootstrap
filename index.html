@@ -1,24 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Bootstrap Example</title>
-
-    <!-- Add Bootstrap CSS link -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Lorem ipsum</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 </head>
 <body>
-
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">LOREM IPSUM</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-5 me-5">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Dolor</a>
+                    </li>
+                    <li class="nav-item ms-5 me-5">
+                        <a class="nav-link disabled text-white-50" href="#">Sit</a>
+                    </li>
+                    <li class="nav-item ms-5 me-5">
+                        <a class="nav-link disabled text-white-50" href="#">Amet</a>
+                    </li>
+                    <li class="nav-item ms-5 me-5 d-lg-none .d-xl-block">
+                        <a class="nav-link active text-light" data-bs-toggle="collapse" aria-current="page" href="#lista-opciones">Opciones</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                </form>
+            </div>
+        </div>
+    </nav>
     <div class="container">
-        <h1>Hello, Bootstrap!</h1>
-        <p>This is a basic Bootstrap example.</p>
-        <button class="btn btn-primary">Click me</button>
+        <ul class="collapse list-group col-lg-3 d-lg-none .d-xl-block" id="lista-opciones">
+            <li class="list-group-item">
+                <a href="" class="link-dark">Opcion 1</a>
+            </li>
+            <li class="list-group-item">
+                <a href="" class="link-dark">Opcion 2</a>
+            </li>
+            <li class="list-group-item">
+                <a href="" class="link-dark">Opcion 3</a>
+            </li>
+            <li class="list-group-item">
+                <a href="" class="link-dark">Opcion 4</a>
+            </li>
+        </ul>
+        <div class="d-none d-lg-block text-center mt-5">
+            <h3>Lorem Ipsum...</h3>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <p>Lorem ipsum dolor sit amet...</p>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <p>...at quos nobis praesentium quae delectus.</p>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <p>Commodi enim excepturi aspernatur, aliquam eum quo magni vero!</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <ul class="list-group col-lg-3 d-none d-lg-block">
+                <li class="list-group-item">
+                    <a href="" class="link-dark">Opcion 1</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="" class="link-dark">Opcion 2</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="" class="link-dark">Opcion 3</a>
+                </li>
+                <li class="list-group-item">
+                    <a href="" class="link-dark">Opcion 4</a>
+                </li>
+            </ul>
+            <div class="row col-lg-9 col-md-12 col-sm-12">
+                <p class="col-lg-4 col-md-6 col-sm-12 bg-body-tertiary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                    ullam dolor, voluptate sit nihil qui et sint quasi esse, numquam
+                    maiores at cupiditate minus itaque hic, sunt nulla odio rem?
+                </p>
+                <p class="col-lg-4 col-md-6 col-sm-12 bg-body-tertiary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                    ullam dolor, voluptate sit nihil qui et sint quasi esse, numquam
+                    maiores at cupiditate minus itaque hic, sunt nulla odio rem?
+                </p>
+                <p class="col-lg-4 col-md-6 col-sm-12 bg-body-tertiary">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                    nesciunt corrupti amet voluptatum. Soluta expedita at quos nobis
+                    praesentium quae delectus. Commodi enim excepturi aspernatur,
+                    aliquam eum quo magni vero!
+                </p>
+                <p class="col-lg-4 col-md-6 col-sm-12 bg-body-tertiary">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                    nesciunt corrupti amet voluptatum. Soluta expedita at quos nobis
+                    praesentium quae delectus. Commodi enim excepturi aspernatur,
+                    aliquam eum quo magni vero!
+                </p>
+                <p class="col-lg-4 col-md-6 col-sm-12 bg-body-tertiary">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                    nesciunt corrupti amet voluptatum. Soluta expedita at quos nobis
+                    praesentium quae delectus. Commodi enim excepturi aspernatur,
+                    aliquam eum quo magni vero!
+                </p>
+                <p class="col-lg-4 col-md-6 col-sm-12 bg-body-tertiary">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                    nesciunt corrupti amet voluptatum. Soluta expedita at quos nobis
+                    praesentium quae delectus. Commodi enim excepturi aspernatur,
+                    aliquam eum quo magni vero!
+                </p>
+                <p class="col-lg-4 col-md-6 col-sm-12 bg-body-tertiary">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                    nesciunt corrupti amet voluptatum. Soluta expedita at quos nobis
+                    praesentium
+                </p>
+                <p class="col-lg-4 col-md-6 col-sm-12 bg-body-tertiary">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                    nesciunt corrupti amet voluptatum. Soluta expedita at quos nobis
+                    praesentium quae delectus.
+                </p>
+            </div>
+        </div>
     </div>
-
-    <!-- Add Bootstrap JavaScript and jQuery (optional but often required for Bootstrap functionality) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    ></script>
 </body>
 </html>
